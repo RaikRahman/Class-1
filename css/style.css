@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	background-image: url(../images/mountain.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	display: flex;
+	align-items: center;
+}
+.container1 {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+
+}
+
+.banner h1{
+	margin-top: 0;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.banner p{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 40px;
+	line-height: 33px;
+	font-weight: 400;
+}
+
+.btn{color: #fff;
+	 border: 1px solid white;
+	 padding: 10px 25px;
+	 text-decoration: none;
+	 border-radius: 2px;
+	 font-size: 16px;
+	 letter-spacing: 2px;
+	 transition-duration: 0.4s;
+}
+.btn:hover{
+	background: #fff;
+	color: #222;
+	 border: 1px solid white;
+	 padding: 10px 25px;
+	 text-decoration: none;
+	 border-radius: 2px;
+	 font-size: 16px;
+	 letter-spacing: 2px;
+}
+.firstSection {
+    width: 1400px;
+    margin: 150px auto;
+}
+.container2{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.column-1{
+	margin-right: 30px;
+}
+.column-2{
+	margin-right: 70px;
+}
+.column-1 img{
+	width: 600px;
+}
+.column-2 h1{
+	font-weight: 500;
+	font-size: xx-large;
+	margin: 0;
+}
+.column-2 p{
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+.secondSection {
+    width: 1400px;
+    margin: 150px auto;
+}
+.container3{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.column-3{
+	margin-right: 50px;
+}
+.column-4{
+	margin-right: 55px;
+}
+.column-3 img{
+	width: 600px;
+	height: 400px;
+	object-fit: cover;
+}
+.column-4 h1{
+	font-weight: 500;
+	font-size: xx-large;
+	margin: 0;
+}
+.column-4 p{
+	line-height: 25px;
+}
+
+
+
+
+footer{
+	background-image: url(../images/coffeeshop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.end{
+	margin: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.end h1{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.end h2{
+	margin-top: 40px;
+	font-size: 25px;
+	font-weight: 300;
+}
